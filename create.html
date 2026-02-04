@@ -32,13 +32,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="./create.html">Create</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">New</a>
+                <a class="nav-link" href="./details.html">Details</a>
               </li>
             </ul>
           </div>
@@ -46,47 +51,55 @@
       </nav>
     </header>
 
-    <section class="form d-flex justify-content-center align-content-center py-5">
+    <section
+      class="form d-flex justify-content-center align-content-center py-5"
+    >
       <div class="container">
         <form class="createUser" name="AddUserForm">
-            <div class="form-floating mb-3">
-        <input
-          type="text" name="name"
-          class="form-control"
-          id="username"
-          placeholder=""
-        />
-        <label for="username">User name</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input
-          type="email" name="email"
-          class="form-control"
-          id="useremail"
-          placeholder=""
-        />
-        <label for="email">User email</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input
-          type="number" name="age"
-          class="form-control"
-          id="age"
-          placeholder=""
-        />
-        <label for="age">User age</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input
-          type="file" name="image"
-          class="form-control"
-          id="image"
-          placeholder=""
-        />
-        <label for="image">User image</label>
-      </div>
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              id="username"
+              placeholder=""
+            />
+            <label for="username">User name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="useremail"
+              placeholder=""
+            />
+            <label for="email">User email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="number"
+              name="age"
+              class="form-control"
+              id="userage"
+              placeholder=""
+            />
+            <label for="age">User age</label>
+          </div>
 
-      <button class="btn btn-outline-success" type="submit">Create</button>
+          <img src="" alt="" width="200px" class="preview"/>
+          <div class="form-floating mb-3">
+            <input
+              type="file"
+              name="image"
+              class="form-control"
+              id="image"
+              placeholder=""
+            />
+            <label for="image">User image</label>
+          </div>
+
+          <button class="btn btn-outline-success" type="submit">Create</button>
         </form>
       </div>
     </section>
